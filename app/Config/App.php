@@ -23,7 +23,8 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $baseURL = 'http://localhost/promise';
+	// public $baseURL = 'http://localhost/promise';
+	public $baseURL = 'http://promise.ittelkom-sby.ac.id';
 
 	/**
 	 * --------------------------------------------------------------------------

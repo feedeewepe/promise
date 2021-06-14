@@ -15,53 +15,53 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/bootstrap.min.css">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/font-awesome.min.css">
     <!-- owl.carousel CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/owl.carousel.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/owl.theme.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.theme.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/owl.transitions.css">
     <!-- animate CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/animate.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/animate.css">
     <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/normalize.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/normalize.css">
     <!-- meanmenu icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/meanmenu.min.css">
     <!-- main CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/main.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/main.css">
     <!-- educate icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/educate-custon-icon.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/educate-custon-icon.css">
     <!-- morrisjs CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/morrisjs/morris.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/calendar/fullcalendar.print.min.css">
     <!-- style CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/style.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/style.css">
     <!-- responsive CSS
 		============================================ -->
-    <link rel="stylesheet" href="<?php echo base_url();?>/public/assets/css/responsive.css">
+    <link rel="stylesheet" href="<?php echo base_url();?>/assets/css/responsive.css">
     <!-- modernizr JS
 		============================================ -->
-    <script src="<?php echo base_url();?>/public/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="<?php echo base_url();?>/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -125,9 +125,9 @@
                         <li>
                             <a class="has-arrow" href="all-courses.html" aria-expanded="false"><span class="educate-icon educate-library icon-wrap"></span> <span class="mini-click-non">Library</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
-                                <li><a title="All Library" href="library-public/assets.html"><span class="mini-sub-pro">Library public/assets</span></a></li>
-                                <li><a title="Add Library" href="add-library-public/assets.html"><span class="mini-sub-pro">Add Library Asset</span></a></li>
-                                <li><a title="Edit Library" href="edit-library-public/assets.html"><span class="mini-sub-pro">Edit Library Asset</span></a></li>
+                                <li><a title="All Library" href="library-assets.html"><span class="mini-sub-pro">Library assets</span></a></li>
+                                <li><a title="Add Library" href="add-library-assets.html"><span class="mini-sub-pro">Add Library Asset</span></a></li>
+                                <li><a title="Edit Library" href="edit-library-assets.html"><span class="mini-sub-pro">Edit Library Asset</span></a></li>
                             </ul>
                         </li>
                         <li>
@@ -912,11 +912,11 @@
                                         </li>
                                         <li><a data-toggle="collapse" data-target="#demolibra" href="#">Library <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
                                             <ul id="demolibra" class="collapse dropdown-header-top">
-                                                <li><a href="library-public/assets.html">Library public/assets</a>
+                                                <li><a href="library-assets.html">Library assets</a>
                                                 </li>
-                                                <li><a href="add-library-public/assets.html">Add Library Asset</a>
+                                                <li><a href="add-library-assets.html">Add Library Asset</a>
                                                 </li>
-                                                <li><a href="edit-library-public/assets.html">Edit Library Asset</a>
+                                                <li><a href="edit-library-assets.html">Edit Library Asset</a>
                                                 </li>
                                             </ul>
                                         </li>

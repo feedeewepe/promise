@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Welcome to CodeIgniter 4!</title>
-	<meta name="description" content="The small framework with powerful features">
+	<title>Welcome to PROMISE</title>
+	<meta name="description" content="PRactical wOrks and internship Management Information SystEm <br> Aplikasi untuk mengelola kegiatan kerja praktek dan magang mahasiswa di lingkungan kampus Institut Teknologi Telkom Surabaya">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
 
@@ -219,9 +219,9 @@
 
 	<div class="heroe">
 
-		<h1>Welcome to CodeIgniter <?= CodeIgniter\CodeIgniter::CI_VERSION ?></h1>
+		<h1>Welcome to PROMISE</h1>
 
-		<h2>The small framework with powerful features</h2>
+		<h2>PRactical wOrks and internship Management Information SystEm</h2>
 
 	</div>
 

@@ -27,7 +27,7 @@
                     <h1 class="fst-italic lh-1">Coming Soon</h1>
                     <p>PRactical wOrk and intership Management Information SystEm</p>
                     
-                        <section class="login_content">
+                        <!-- <section class="login_content">
                             <form>
                             <div>
                                 <input type="text" class="form-control" placeholder="Username" required="" />
@@ -37,13 +37,79 @@
                             </div>
                             <div>
                             <button type="button" class="btn btn-secondary" data-placement="bottom" title=""> Log in</button>
-                                <!-- <a class="btn btn-default" href="index.html">Log in</a> -->
                                 <a class="reset_pass" href="#">Lost your password?</a>
                             </div>
 
                             <div class="clearfix"></div>
                             </form>
-                        </section>
+                        </section> -->
+
+                        <div class="">
+                            <div class="col-5">
+                                <p class="login-box-msg"><?=lang('Auth.loginTitle')?></p>
+                                <?= $this->include('agungsugiarto\boilerplate\Views\Authentication\message_block') ?>
+                                <form action="<?= route_to('Auth.login') ?>" method="post">
+                                <?= csrf_field() ?>
+                                <?php if ($config->validFields === ['email']) { ?>
+                                <div class="mb-3">
+                                    <input type="email" name="login"
+                                    class="form-control <?= session('error.login') || session('errors.login') ? 'is-invalid' : '' ?>"
+                                    placeholder="<?=lang('Auth.email')?>" value="<?= old('login') ?>" autocomplete="off">
+                                    
+                                    <div class="invalid-feedback">
+                                    <?= session('errors.login') ?>
+                                    </div>
+                                </div>
+                                <?php } else { ?>
+                                <div class="mb-3">
+                                    <input type="text" name="login"
+                                    class="form-control <?= session('error.login') || session('errors.login') ? 'is-invalid' : '' ?>"
+                                    placeholder="<?=lang('Auth.emailOrUsername')?>" value="<?= old('login') ?>" autocomplete="off">
+                                   
+                                    <div class="invalid-feedback">
+                                    <?= session('errors.login') ?>
+                                    </div>
+                                </div>
+                                <?php } ?>
+                                <div class="mb-3">
+                                    <input type="password" name="password"
+                                    class="form-control <?= session('errors.password') ? 'is-invalid' : '' ?>"
+                                    placeholder="<?=lang('Auth.password')?>">
+                                    
+                                    <div class="invalid-feedback">
+                                    <?= session('errors.password') ?>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <?php if ($config->allowRemembering) { ?>
+                                    <div class="col-8">
+                                    <div class="icheck-primary">
+                                        <input type="checkbox" name="remember" id="remember" <?= old('remember') ? 'checked' : '' ?> >
+                                        <label for="remember">
+                                        <?=lang('Auth.rememberMe')?>
+                                        </label>
+                                    </div>
+                                    </div>
+                                    <?php } ?>
+                                    <!-- /.col -->
+                                    <div class="col-6">
+                                    <button type="submit" class="btn btn-primary btn-block"><?= lang('Auth.signIn') ?></button>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                </form>
+
+                                <p class="mb-1">
+                                <a href="<?= route_to('forgot') ?>"><?=lang('Auth.forgotYourPassword')?></a>
+                                </p>
+                                <?php if ($config->allowRegistration) { ?>
+                                <p class="mb-0">
+                                <a href="<?= route_to('register') ?>" class="text-center"><?=lang('Auth.needAnAccount')?></a>
+                                </p>
+                                <?php } ?>
+                            </div>
+                            <!-- /.login-card-body -->
+                            </div>
                 </div>
             </div>
         </div>

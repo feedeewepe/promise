@@ -98,13 +98,15 @@
                                     <!-- /.col -->
                                 </div>
                                 </form>
-
+                                
+                                <?php if ($config->activeResetter!=null) { ?>
                                 <p class="mb-1">
-                                <a href="<?= route_to('forgot') ?>"><?=lang('Auth.forgotYourPassword')?></a>
-                                </p>
+                                <a href="forgot"><?=lang('Auth.forgotYourPassword')?></a>
+                                </p>                                
+                                <?php } ?>
                                 <?php if ($config->allowRegistration) { ?>
                                 <p class="mb-0">
-                                <a href="<?= route_to('register') ?>" class="text-center"><?=lang('Auth.needAnAccount')?></a>
+                                <a href="register" class="text-center"><?=lang('Auth.needAnAccount')?></a>
                                 </p>
                                 <?php } ?>
                             </div>
@@ -126,10 +128,5 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="<?php echo base_url();?>/assets/startbootstrap-coming-soon-gh-pages/js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

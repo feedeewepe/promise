@@ -7,7 +7,7 @@ class Dashboard extends BaseController
     public function index()
     {
         $data = [
-            'title' => 'Starter Project CodeIgniter 4'
+            'title' => 'PROMISE - ITTelkom SBY'
         ];
 
         return view('dashboard/index', $data);

@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 // $routes->get('/', 'Dashboard::index');
 $routes->get('/', 'Dashboard::index',['filter' => 'login']);
+$routes->get('/users', 'Users::index',['filter' => 'login']);
 
 $routes->get('/export-pdf', 'Export::export_pdf');
 $routes->get('/export-excel', 'Export::export_excel');

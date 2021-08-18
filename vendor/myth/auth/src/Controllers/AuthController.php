@@ -159,6 +159,7 @@ class AuthController extends Controller
 			'email'			=> 'required|valid_email|is_unique[users.email]',
 			'password'	 	=> 'required|strong_password',
 			'pass_confirm' 	=> 'required|matches[password]',
+			'usergroupid' 	=> 'required|greater_than[1]',
 		];
 
 		if (! $this->validate($rules))
@@ -167,7 +168,7 @@ class AuthController extends Controller
 		}
 
 		// Save the user
-		$allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);
+		$allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);		
 		$user = new User($this->request->getPost($allowedPostFields));
 
 		$this->config->requireActivation === null ? $user->activate : $user->generateActivateHash();

@@ -14,7 +14,7 @@ class UserModel extends Model
 
     protected $allowedFields = [
         'email', 'username', 'password_hash', 'reset_hash', 'reset_at', 'reset_expires', 'activate_hash',
-        'status', 'status_message', 'active', 'force_pass_reset', 'permissions', 'deleted_at',
+        'status', 'status_message', 'active', 'force_pass_reset', 'permissions', 'deleted_at', 'usergroupid',
     ];
 
     protected $useTimestamps = true;
@@ -23,6 +23,7 @@ class UserModel extends Model
         'email'         => 'required|valid_email|is_unique[users.email,id,{id}]',
         'username'      => 'required|alpha_numeric_punct|min_length[3]|max_length[30]|is_unique[users.username,id,{id}]',
         'password_hash' => 'required',
+        'usergroupid'   => 'required|greater_than[1]',
     ];
     protected $validationMessages = [];
     protected $skipValidation = false;
@@ -118,6 +119,14 @@ class UserModel extends Model
         }
 
         return $data;
+    }
+
+    public function select_data($id = FALSE)
+    {        
+        if ($id == FALSE) {                       
+            return $this->db->table('users')->join('usergroup', 'users.usergroupid = usergroup.usergroupid')->where('users.usergroupid <>','1')->get()->getResultObject();
+        }
+        return $this->db->table('users')->join('usergroup', 'users.usergroupid = usergroup.usergroupid')->where('id',$id)->get()->getFirstRow();
     }
 
 }

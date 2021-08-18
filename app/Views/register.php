@@ -54,6 +54,19 @@
                                             </div>
 
                                             <div class="form-group">
+                                                <label for="usergroupid">User group</label>
+                                                <select name="usergroupid" class="form-control <?php if(session('errors.usergroupid')) : ?>is-invalid<?php endif ?>"  placeholder="User Group">
+                                                    <option value="">User Group</option>
+                                                    <option value="2">Fakultas</option>
+                                                    <option value="3">Bagian Pelayanan Akademik</option>
+                                                    <option value="4">Pembimbing Akademik</option>
+                                                    <option value="5">Pembimbing Lapangan</option>
+                                                    <option value="6">Penguji</option>
+                                                    <option value="7">Mahasiswa</option>
+                                                </select>                                                
+                                            </div>
+
+                                            <div class="form-group">
                                                 <label for="password"><?=lang('Auth.password')?></label>
                                                 <input type="password" name="password" class="form-control <?php if(session('errors.password')) : ?>is-invalid<?php endif ?>" placeholder="<?=lang('Auth.password')?>" autocomplete="off">
                                             </div>

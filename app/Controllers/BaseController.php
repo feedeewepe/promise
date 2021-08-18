@@ -18,6 +18,7 @@ use CodeIgniter\Controller;
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\Config\Services;
 use Config\Database;
+use App\Models\UserGroupModel;
 
 class BaseController extends Controller
 {
@@ -52,6 +53,8 @@ class BaseController extends Controller
 	 */
 	protected $helpers = ['auth', 'url', 'form','html','text'];
 
+	protected $userGroup;
+
 	/**
 	 * Constructor.
 	 */
@@ -68,6 +71,11 @@ class BaseController extends Controller
 		$this->auth = Services::authentication();
         $this->authorize = Services::authorization();
         $this->db = Database::connect();
+
+		$this->userGroup = new UserGroupModel();		
+		if(user()!=NULL){
+			$this->userGroup = $this->userGroup->getGroupName(user()->usergroupid);
+		}
 	}
 
 }

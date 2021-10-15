@@ -241,6 +241,13 @@ class ComposerStaticInit9a04640742bd0e84fbb44fbe88cacb43
                 0 => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php',
             ),
         ),
+        'S' => 
+        array (
+            'Sastrawi\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/sastrawi/sastrawi/src',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 

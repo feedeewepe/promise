@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f38f2453de613223a28610bbc2fce4af5a79d39d',
+    'reference' => 'fe47283e514fb1f4fb20d633dc6faa1bf2252869',
     'name' => 'codeigniter4/appstarter',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f38f2453de613223a28610bbc2fce4af5a79d39d',
+      'reference' => 'fe47283e514fb1f4fb20d633dc6faa1bf2252869',
     ),
     'codeigniter4/authentication-implementation' => 
     array (
@@ -344,6 +344,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '408d5eafb83c57f6365a3ca330ff23aa4a5fa39b',
+    ),
+    'sastrawi/sastrawi' => 
+    array (
+      'pretty_version' => 'v1.0.0',
+      'version' => '1.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fd3cd29e46954b2c8f24dc95f029ce233871d2ef',
     ),
     'sebastian/code-unit-reverse-lookup' => 
     array (

@@ -11,7 +11,8 @@
 		"codeigniter4/framework": "^4",
 		"tecnickcom/tcpdf": "^6.3",
 		"phpoffice/phpspreadsheet": "^1.16",
-		"myth/auth": "^1.0@beta"
+		"myth/auth": "^1.0@beta",
+		"sastrawi/sastrawi": "1"
 	},
 	"require-dev": {
 		"fzaninotto/faker": "^1.9@dev",

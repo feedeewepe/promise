@@ -1,0 +1,56 @@
+CRITICAL - 2021-08-16 07:26:18 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:26:23 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:26:24 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:27:06 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:27:08 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:27:32 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:28:22 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-16 07:29:02 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

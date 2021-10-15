@@ -73,8 +73,14 @@ class BaseController extends Controller
         $this->db = Database::connect();
 
 		$this->userGroup = new UserGroupModel();		
-		if(user()!=NULL){
+		if(user()!==NULL){
 			$this->userGroup = $this->userGroup->getGroupName(user()->usergroupid);
+		}else{			
+			// var_dump(user());die();
+			$this->userGroup = NULL;
+			return redirect()->route('/')->with('message', 'Login expired, please sign in!');	
+			// session()->setFlashData('danger', 'Login expired, please sign in!');
+            // return redirect()->to('/objects');		
 		}
 	}
 

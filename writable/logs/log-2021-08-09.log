@@ -1,0 +1,114 @@
+CRITICAL - 2021-08-09 05:16:19 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:16:54 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:16:55 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:16:57 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:17:10 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:17:12 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:17:19 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:17:29 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-09 05:17:33 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\promise\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-09 05:17:36 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\promise\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-09 05:17:36 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\promise\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-09 05:17:37 --> auth filter must have a matching alias defined.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Filters\Filters.php(373): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('auth')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\Filters\Filters->enableFilter('auth', 'before')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\promise\index.php(2): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-09 07:49:57 --> Undefined variable: title
+#0 C:\xampp\htdocs\promise\app\Views\layout\templates.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template...', Array, true)
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('register', Array, true)
+#5 C:\xampp\htdocs\promise\vendor\myth\auth\src\Controllers\AuthController.php(421): view('register', Array)
+#6 C:\xampp\htdocs\promise\vendor\myth\auth\src\Controllers\AuthController.php(139): Myth\Auth\Controllers\AuthController->_render('register', Array)
+#7 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->register()
+#8 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-09 20:29:22 --> Undefined variable: title
+#0 C:\xampp\htdocs\promise\app\Views\layout\templates.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('layout/template...', Array, true)
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('register', Array, true)
+#5 C:\xampp\htdocs\promise\vendor\myth\auth\src\Controllers\AuthController.php(421): view('register', Array)
+#6 C:\xampp\htdocs\promise\vendor\myth\auth\src\Controllers\AuthController.php(139): Myth\Auth\Controllers\AuthController->_render('register', Array)
+#7 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->register()
+#8 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-08-09 22:54:27 --> Class name must be a valid object or a string
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Config\BaseService.php(263): Myth\Auth\Config\Services::activator(Object(Config\Auth), false)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#2 C:\xampp\htdocs\promise\vendor\myth\auth\src\Config\Services.php(85): CodeIgniter\Config\BaseService::getSharedInstance('activator', NULL)
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Config\BaseService.php(263): Myth\Auth\Config\Services::activator()
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Common.php(1084): CodeIgniter\Config\BaseService::__callStatic('activator', Array)
+#5 C:\xampp\htdocs\promise\vendor\myth\auth\src\Controllers\AuthController.php(187): service('activator')
+#6 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptRegister()
+#7 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

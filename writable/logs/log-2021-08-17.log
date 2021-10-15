@@ -1,0 +1,125 @@
+CRITICAL - 2021-08-17 03:20:17 --> Class 'App\Controllers\UserGroupModel' not found
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-17 03:21:01 --> Undefined property: App\Controllers\Users::$userGroup
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 03:22:32 --> Undefined property: App\Controllers\Users::$userGroup
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 03:22:35 --> Undefined property: App\Controllers\Users::$userGroup
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 03:32:45 --> Call to undefined function baseurl()
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('Users/index', Array, true)
+#3 C:\xampp\htdocs\promise\app\Controllers\Users.php(31): view('Users/index', Array)
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#5 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#6 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-17 05:36:15 --> Class 'App\Controllers\User' not found
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->saveUser()
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-17 08:29:50 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\BaseController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:30:37 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:31:41 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\BaseController.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:33:42 --> Call to undefined function App\Controllers\exist()
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-17 08:34:03 --> Call to undefined function App\Controllers\is_exist()
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-17 08:34:29 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:35:38 --> Trying to get property 'usergroupid' of non-object
+#0 C:\xampp\htdocs\promise\app\Controllers\Users.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->addUser()
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:35:54 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('users/addUser')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('users/addUser')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-17 08:43:33 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\promise\app\Controllers\Users.php(95): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->saveUser()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-17 08:46:05 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\promise\app\Controllers\Users.php(95): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->saveUser()
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#4 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-17 20:40:23 --> Column 'usergroupid' in where clause is ambiguous
+#0 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\promise\vendor\myth\auth\src\Models\UserModel.php(127): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\promise\app\Controllers\Users.php(46): Myth\Auth\Models\UserModel->select_data()
+#6 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Users->index()
+#7 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#8 C:\xampp\htdocs\promise\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\promise\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
